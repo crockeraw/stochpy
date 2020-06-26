@@ -110,7 +110,7 @@ smod.PrintSpeciesMeans()   # should be ~Ksyn/Kdeg
 ```py
 smod.Model('dsmts-001-01.xml.psc')
 smod.DoStochSim(trajectories=1000,end=50,mode='time')
-smod.GetRegularGrid(npoints=51)
+smod.GetRegularGrid(n_samples=51)
 smod.PlotAverageSpeciesTimeSeries()
 smod.PrintAverageSpeciesTimeSeries()
 smod.Export2File(datatype='species',analysis='timeseries',IsAverage=True)
