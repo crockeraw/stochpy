@@ -1,5 +1,8 @@
 # StochPy Stochastic modeling in Python
 
+Not the release from their Github.
+I edited so that it runs examples in this README, but there are still multiple issues. Ultimately I recommend Gillespy2 instead.
+
 StochPy is a versatile stochastic modeling package which is designed for stochastic simulation of molecular control networks
 
 * File releases: http://sourceforge.net/projects/stochpy
